@@ -1,0 +1,524 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Work Sans', sans-serif;
+    width: 1440px;
+    height: 808px;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border: none;
+}
+
+button {
+    border: none;
+    padding: 0;
+}
+
+.header {}
+
+.header-info {
+    display: flex;
+}
+
+.header-left {
+    width: 720px;
+    margin: 104px;
+}
+
+.lofo-img {
+    display: flex;
+    gap: 3px;
+    margin-top: -56px;
+}
+
+.logo-name {
+
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    color: #059669;
+}
+
+.pricing {}
+
+.motivation {
+    margin-top: 116px;
+    margin-bottom: 64px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 80px;
+    letter-spacing: 0.02em;
+    color: #064E3B;
+}
+
+.motivation span {
+    color: #10B981;
+}
+
+.header-btn {
+    border: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+button.pricing {
+    background-color: #FFFFFF;
+    border: 1px solid #10B981;
+    color: #10B981;
+    padding: 14px 28px;
+}
+
+.pricing a {
+    color: #10B981;
+}
+
+button.member {
+    background: linear-gradient(4.01deg, #059669 3.04%, #36DCA5 96.51%);
+    padding: 14px 28px;
+}
+
+.member a {
+    color: #FFFFFF;
+
+    border: none;
+
+}
+
+
+.header-right__img {
+    height: 798px;
+    left: 732px;
+    width: 720px;
+}
+
+.info-sayling {
+    position: absolute;
+    top: 530px;
+    left: 650px;
+}
+
+.info-sayling__block-1 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+p.discount-info {
+    padding: 0;
+}
+
+.discount-info {
+    position: relative;
+    padding: 13px 25px 77px 25px;
+    margin: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 30px;
+}
+
+.timer__items {
+    position: absolute;
+    padding: 14px 58px;
+    top: 42px;
+    color: #FFFFFF;
+    background-color: #059669;
+}
+
+h2.title-text {
+    margin: 0;
+}
+
+.title-text {
+    color: #047857;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+p.discount-info {
+    color: #059669;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+
+/* Стили для таймера */
+.timer__items {
+    display: flex;
+    font-size: 48px;
+}
+
+.timer__item {
+    position: relative;
+    min-width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.timer__item::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 14px;
+}
+
+.timer__item:not(:last-child)::after {
+    content: ':';
+    position: absolute;
+    right: -15px;
+}
+
+/* Massage - card */
+.procedur {
+    width: 1440px;
+    height: 808px;
+}
+
+.massage-items {
+    display: flex;
+}
+
+.massage-item {
+    width: 480px;
+    height: 724px;
+    background: linear-gradient(28.58deg, #059669 0%, #10B981 100%);
+}
+
+.massage-item__block {
+    margin: 98px 45px;
+}
+
+.massage-procedure {
+    color: #ecfdf5;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.02em;
+    margin-bottom: 32px;
+}
+
+.dotted-line {
+    border: 1px dashed #fff;
+    margin-bottom: 16px;
+}
+
+.massage-price {
+    display: flex;
+    gap: 174px;
+    color: #fff;
+}
+
+.rp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    background-color: #064E3B;
+    width: 147px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.mas-procedur {
+    margin-top: 20px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    box-shadow: -10px 10px 1px 1px #047857;
+}
+
+.select {
+    display: flex;
+    gap: 12px;
+    margin-top: 32px;
+    margin-bottom: 98px;
+}
+
+.services-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+
+}
+
+.serv-btn {
+    padding: 18px 53px;
+    background: linear-gradient(238.08deg, #059669 19.19%, #10B981 80.81%);
+}
+
+
+/* Sugar Scrubs */
+.scrubs {
+    position: relative;
+}
+
+.scrubs-wrapper {
+    width: 1440px;
+    height: 668px;
+    position: relative;
+}
+
+.foto-girl {
+    display: flex;
+    flex-direction: column;
+    margin-left: 275px;
+}
+
+.foto-girl__png {
+    position: relative;
+    z-index: 8;
+
+    right: 0;
+}
+
+img.foto-girl__png {
+    position: relative;
+}
+
+.sugar-scribs {
+    position: absolute;
+    z-index: 2;
+    width: 686px;
+    height: 547px;
+    margin-top: -605px;
+    margin-left: 104px;
+    background: #ECFDF5;
+}
+
+.sugar-scribs__wrapper {
+    width: 504px;
+    height: 332px;
+    margin-top: 77px;
+    margin-left: 73px;
+}
+
+.sugar-scribs__btn {}
+
+.product {}
+
+.exl-product {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ECFDF5;
+    background: #047857;
+    padding: 6px 15px;
+}
+
+.scrubs-title {
+    margin-top: 10px;
+    margin-bottom: 24px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #047857;
+}
+
+.scrubs-text {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #047857;
+    margin-bottom: 20px;
+}
+
+.scrubs-ingredients {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #047857;
+}
+
+.scrubs-ingredients span {
+    font-weight: 600;
+}
+
+.view-product {}
+
+.product-link {
+    height: 25px;
+    left: 178px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #047857;
+    border-bottom: 1px solid #064E3B;
+}
+
+.green-fon {
+    margin-top: -451px;
+    margin-left: 176px;
+    position: absolute;
+    z-index: 1;
+    width: 1264px;
+    height: 451px;
+    float: bottom;
+    background: linear-gradient(30.63deg, #059669 26.17%, #10B981 97.06%);
+}
+
+/* footer */
+.footer {
+    height: 423px;
+    width: 1438px;
+}
+
+.container {}
+
+.footer-wrapper {
+    display: flex;
+} 
+ a#footer {
+    font-size: 20px !important;
+    font-weight: 600;
+    
+}
+
+a.footer-link {
+    margin-bottom: 16px;
+}
+
+a#footer.footer-link {
+    margin-bottom: 20px;
+}
+.logo-allrightreserved {
+    
+    width:  246px;
+    /* background: red; */
+}
+
+p.right-text,
+h3.promos-title {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #064E3B; 
+}
+
+h3.promos-title {
+    margin-bottom: 47px;
+}
+
+.logo-img__footer {
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.footer-info {
+    display: flex;
+    margin: 200px 100px 67px;
+    
+}
+
+.footer-info__items {
+    display: flex;
+    
+}
+
+.footer-items {
+    margin-right: 56px;
+    
+}
+
+.footer-item {
+    display: flex;
+}
+
+.footer-item.footer-item__title {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+a.footer-link {
+   
+}
+
+.footer-link {
+    color: #064E3B;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.promo-get {
+    display: flex;
+}
+.promos {}
+
+.promos-title {}
+
+input.mail {
+    width: 301px;
+    height: 29px;
+    border-bottom:1px solid #064E3B;
+}
+
+.footer-arrow {}
+
+.arrow-right {}
+
+img.link-mail {
+    margin-top: 13px;
+    margin-left: -17px;
+}
+
+img.phone {
+    margin-right: 12px;
+    width: 18px;
+    height: 18px;
+}
+
+img.whatsapp {
+    margin-right: 12px;
+    width: 20px;
+    height: 20px;
+}
