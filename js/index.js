@@ -37,3 +37,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // вызываем функцию countdownTimer каждую секунду
     timerId = setInterval(countdownTimer, 1000);
   });
+
+  // Реализация смены стиля сайта
+
+   
+$(function () {
+  $('.toggle').on('click' ,function(event) {
+    $(this).toggleClass('active');
+    $('body').toggleClass('night');				
+  });
+});
